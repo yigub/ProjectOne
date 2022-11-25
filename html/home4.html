@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>网络公司-动态详情页</title>
+  <link rel="stylesheet" href="../res/layui/css/layui.css">
+  <link rel="stylesheet" href="../res/static/css/index.css">
+</head>
+<body>
+  <!-- nav部分 -->
+  <div class="nav">
+    <div class="layui-container">
+      <!-- 公司logo -->
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="../res/static/img/logo.png" alt="网络公司">
+          <img src="../res/static/img/logo_1.png" alt="网络公司">
+        </a>
+      </div>
+      <div class="nav-list">
+        <button>
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="layui-nav" lay-filter="">
+          <li class="layui-nav-item"><a href="product.html">介绍</a></li>
+          <li class="layui-nav-item"><a href="news.html">作业</a></li>
+          <li class="layui-nav-item layui-this"><a href="case.html">案例</a></li>
+          <li class="layui-nav-item"><a href="about.html">关于</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- main部分 -->
+  <div class="main-newsdate">
+    <div class="layui-container">
+      <p class="news"><a href="news.html">Homework ></a> Homework Detail</p>
+      <h1>Homework 4</h1>
+      <p class="pushtime">发布时间：<span>2022-11-25</span></p>
+      <p style="text-align: justify;margin-bottom: 10px"><strong>王子豪:</strong>
+        问题一：DCell网络拓扑结构网络可扩展性好，在网络设备端口数和递归层级不大的情况下就能容纳巨大的服务器数量。可以根据业务的需求进行拓展和不断地进行升级，且在此过程中不会影响原先的网络结构，所以增加了扩展性并且降低了成本。
+        问题二：因为购物商城的数据量是不断增加的，所以需要进行定点备份，在发生问题时去恢复损坏的数据。并且还需要数据双重/多重拷贝以及热备份，其热备份要求同步数据的快速恢复，费用很高，实施复杂。但是该策略必须有离线存档备份和定点存档的支持，否则就不是一个真正意义的灾备，离线的灾备是防止破坏、敌意的病毒袭击、应用失误等的有效方式。
+      </p>
+      <p style="text-align: justify;margin-bottom: 10px"><strong>张志鹏:</strong>
+        问题一 ：
+        Dcell网络拓扑结构，Dcell采用的是低端小型交换机递归定义的结构，当增加新的服务器时，不会影响已有服务器的运行，也不需要要改变原有网络结构。DCell还能为各种各样的服务提供比传统树结构更高的网络容量。另外DCell可以增量扩展并且在不完全结构的情况下表现出上述性能，降低了数据中心的成本，增强了数据中心的扩展能力。
+        问题二 ：购物平台的用户订单信息和购物车信息可通过定点备份，数据双重/多重拷贝，热备份等策略来解决数据级灾难恢复和应用程序级灾难恢复。
+      </p>
+      <p style="text-align: justify;margin-bottom: 10px"><strong>蒋文龙:</strong>
+        问题一：DCell网络拓扑结构。在这种结构中，网络内的服务器都有多个网卡。其中部分网卡相互连接各个服务器，服务器就像一个大网络环境的细胞一样。DCell一般需要每服务器有四个或更多的网卡。
+        问题二：通过手动将备份数据保存到其他位置，可以实现较低级别的数据级灾难恢复。例如，定期将备份磁带运送到其他地方是其中一种方法。更先进的数据容灾方案依靠基于网络的数据复制工具实现生产中心与容灾中心之间的异步/同步数据传输，如基于磁盘阵列的数据复制功能。
+      </p>
+      <p style="text-align: justify;margin-bottom: 10px"><strong>李韦维</strong>
+        问题一：Dcell增强了数据中心的节点的连通性，容错性更好，更容易实现负载平衡，由于使用小型交换机就能构建网络，使得数据中心的网络建设成本降低，扩展性更强。
+        问题二：可以使用定点备份策略，备份是恢复损坏数据的关键，且数据恢复的需求决定企业的定点备份时间和频率，以及要备份的数据量。此外，还可以采用远程备份策略，远程备份主要是用于防止自然的和人为的威胁，既可以通过网络机进行，也可以使用交通运输工具。包括离线的存档安全库，备份到另一个数据中心等。
+
+      </p>
+      <p style="text-align: justify;margin-bottom: 10px"><strong>孙时武:</strong>
+        问题一:  DCell拓扑是一种以服务器为中心的拓扑结构,在DCell结构中,服务器与交换机一样具有数据转发功能。DCell拓扑通过低端口小交换机与多端口服务器以递归方式构建大规模网络。在DCell拓扑结构中,存在两种链路连接方式,即服务器与服务器相连,交换机与服务器相连,不存在交换机之间互连的情况。
+        问题二：可以通过定点备份策略、远程备份策略、数据双重/多重拷贝策略、热备份中心策略等措施来解决数据级灾难恢复和应用程序级灾难恢复。
+      </p>
+      <p style="text-align: justify;margin-bottom: 10px"><strong>刘小丽:</strong>
+        问题一:  Dcell 具有多个端口的服务器还可以进行路由选择，利用多路径传输，提高聚合网 络容量，对于多对多网络传输的支持很好，不过随之而来的是需要每个服务器都增加一个网络  接口，增加了服务器的开销和扩建网络的复杂度。当然DCell网络，存在底层链路承担更多传输任务的负载不均衡问题，同时需要服务器配置更多的接口，才能扩展网络规模。
+        问题二：通过备份内容对系统进行有效的灾难恢复，应该不仅只是消除传统输入指令的复杂程序或手动备份的麻烦，更要能实现自动化及跨平台的备份，满足用户的全面需要。它不仅仅备份系统中的数据，还备份系统中安装的应用程序、数据库系统、用户设置、系统参数等信息，以便需要时迅速恢复整个系统。
+      </p>
+    </div>
+  </div>
+  <!-- footer部分 -->
+  <div class="footer">
+    <div class="layui-container">
+      <p class="footer-web">
+        <a href="javascript:;">合作伙伴</a>
+        <a href="javascript:;">张志鹏</a>
+        <a href="javascript:;">李韦维</a>
+        <a href="javascript:;">王子豪</a>
+        <a href="javascript:;">孙时武</a>
+        <a href="javascript:;">刘小丽</a>
+        <a href="javascript:;">蒋文龙</a>
+      </p>
+      <div class="layui-row footer-contact">
+        <div class="layui-col-sm2 layui-col-lg1"><img src="../res/static/img/erweima.jpg"></div>
+        <div class="layui-col-sm10 layui-col-lg11">
+          <div class="layui-row">
+            <div class="layui-col-sm6 layui-col-md8 layui-col-lg9">
+              <p class="contact-top"><i class="layui-icon layui-icon-cellphone"></i>&nbsp;400-8888888&nbsp;&nbsp;&nbsp;(9:00-18:00)</p>
+              <p class="contact-bottom"><i class="layui-icon layui-icon-home"></i>&nbsp;88888888@163.com</span></p>
+            </div>
+            <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+              <p class="contact-top"><span class="right">该模板版权归 <a href="https://www.layui.com/" target="_blank">layui.com</a> 所有</span></p>
+              <p class="contact-bottom"><span class="right">Copyright&nbsp;©&nbsp;2016-2018&nbsp;&nbsp;ICP&nbsp;备888888号</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="../res/layui/layui.js"></script>
+<!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+  layui.config({
+    base: '../res/static/js/' 
+  }).use('firm'); 
+</script>
+
+</body>
+</html>

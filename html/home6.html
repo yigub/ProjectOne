@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>网络公司-动态详情页</title>
+  <link rel="stylesheet" href="../res/layui/css/layui.css">
+  <link rel="stylesheet" href="../res/static/css/index.css">
+</head>
+<body>
+  <!-- nav部分 -->
+  <div class="nav">
+    <div class="layui-container">
+      <!-- 公司logo -->
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="../res/static/img/logo.png" alt="网络公司">
+          <img src="../res/static/img/logo_1.png" alt="网络公司">
+        </a>
+      </div>
+      <div class="nav-list">
+        <button>
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="layui-nav" lay-filter="">
+          <li class="layui-nav-item"><a href="product.html">介绍</a></li>
+          <li class="layui-nav-item"><a href="news.html">作业</a></li>
+          <li class="layui-nav-item layui-this"><a href="case.html">案例</a></li>
+          <li class="layui-nav-item"><a href="about.html">关于</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- main部分 -->
+  <div class="main-newsdate">
+    <div class="layui-container">
+      <p class="news"><a href="news.html">Homework ></a> Homework Detail</p>
+      <h1>Homework 6</h1>
+      <p class="pushtime">发布时间：<span>2022-11-25</span></p>
+        <p style="margin-bottom: 10px;text-align: justify">        问题一：通过存储虚拟化，许多既消耗时间又多次重复的工作，例如备份/恢复、数据归档和存储资源分配等，可以通过自动化的方式来进行，大大减少了人工作业。因此，通过将数据管理工作纳入单一的自动化管理体系, 存储虚拟化可以显著地缩短数据增长速度与企业数据管理能力之间的差距。这种虚拟化可以将用户与存储资源中大量的物理特性隔绝开来。可以将存储资源统一整合管理，集中存储，形成数据中心模式，存储介质易于扩展，由多个异构存储服务器实现分布式存储，以统模式访问虚拟化后的用户接口，可以根据用户需要的空间大小，为用户提供相应的存储能力，同时支持存储自动精简配置，还能将云存储系统虚拟成用户本地硬盘，使用方法与本地硬盘相同。
+    </p>
+        <p style="text-align: justify">        问题二：选择基于操作系统的虚拟化，因为操作系统虚拟化是更快、更便宜的解决方案。且在软件迁移方面，基于操作系统的虚拟化是非常高效的。它可以轻松地虚拟使用操作系统来迁移或缓解冲突。此外，当需要执行备份或恢复服务时，这种虚拟化是最好操作的。且操作系统虚拟化虚拟出的系统都是虚拟的，性能损耗低。同时占用服务器空间少，通常几秒内即可引导。同时弹性可以在资源需求增加时瞬时复制增容，在资源需求减小时释放空间以供其他用户使用。由于在同一台服务器上的容器实例共享同一个系统内核，因此在运行上不会存在实例与主机操作系统争夺RAM的问题发生，从而能够保证实例的性能
+        </p>
+    </div>
+  </div>
+  <!-- footer部分 -->
+  <div class="footer">
+    <div class="layui-container">
+      <p class="footer-web">
+        <a href="javascript:;">合作伙伴</a>
+        <a href="javascript:;">张志鹏</a>
+        <a href="javascript:;">李韦维</a>
+        <a href="javascript:;">王子豪</a>
+        <a href="javascript:;">孙时武</a>
+        <a href="javascript:;">刘小丽</a>
+        <a href="javascript:;">蒋文龙</a>
+      </p>
+      <div class="layui-row footer-contact">
+        <div class="layui-col-sm2 layui-col-lg1"><img src="../res/static/img/erweima.jpg"></div>
+        <div class="layui-col-sm10 layui-col-lg11">
+          <div class="layui-row">
+            <div class="layui-col-sm6 layui-col-md8 layui-col-lg9">
+              <p class="contact-top"><i class="layui-icon layui-icon-cellphone"></i>&nbsp;400-8888888&nbsp;&nbsp;&nbsp;(9:00-18:00)</p>
+              <p class="contact-bottom"><i class="layui-icon layui-icon-home"></i>&nbsp;88888888@163.com</span></p>
+            </div>
+            <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+              <p class="contact-top"><span class="right">该模板版权归 <a href="https://www.layui.com/" target="_blank">layui.com</a> 所有</span></p>
+              <p class="contact-bottom"><span class="right">Copyright&nbsp;©&nbsp;2016-2018&nbsp;&nbsp;ICP&nbsp;备888888号</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="../res/layui/layui.js"></script>
+<!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+  layui.config({
+    base: '../res/static/js/' 
+  }).use('firm'); 
+</script>
+
+</body>
+</html>

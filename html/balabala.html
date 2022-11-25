@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Introduction</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            width: 100%;
+            height: 130px;
+            line-height: 130px;
+            /*opacity: .9;*/
+        }
+        header h1 {
+            margin: 0 auto;
+            width: 545px;
+        }
+        section{
+            overflow: hidden;
+            width: 1200px;
+            margin: 0 auto;
+            /*background-color: orange;*/
+            /*opacity: .5;*/
+        }
+        section ul{
+            list-style: none;
+        }
+        section ul li{
+            /*padding:30px 130px;*/
+            padding: 30px 0;
+            height: 350px;
+            /*line-height: 350px;*/
+            border: 1px black;
+        }
+        section .one,.two,.three,.four,.five,.six{
+            position: relative;
+            text-indent: 2rem;
+            float: left;
+            width: 350px;
+            height: 350px;
+            /*background-color: deeppink;*/
+            border-radius: 30px;
+            overflow: hidden;
+            transition:all .6s;
+            /*margin-top: 20px;*/
+        }
+        .one,.three,.two,.four{
+            margin-right: 40px;
+        }
+        .intro{
+            text-indent: 2rem;
+        }
+        .intro p{
+            line-height: 40px;
+        }
+        .one::after{
+            content:'';
+            position: absolute;
+            left:0;
+            top:0;
+            display: block;
+            width: 350px;
+            height: 350px;
+            border: 1px black;
+            background: linear-gradient(transparent, rgb(145, 218, 145));
+            transition:all .6s;
+            opacity: 0;
+        }
+        .one:hover::after{
+            opacity: .8;
+        }
+        .one:hover{
+            transform:scale(1.1);
+        }
+        .five::after{
+            content:'';
+            position: absolute;
+            left:0;
+            top:0;
+            display: block;
+            width: 350px;
+            height: 350px;
+            border: 1px black;
+            background: linear-gradient(transparent, rgb(145, 218, 145));
+            transition:all .6s;
+            opacity: 0;
+        }
+        .five:hover::after{
+            opacity: .8;
+        }
+        .five:hover{
+            transform:scale(1.1);
+        }
+        .six::after{
+            content:'';
+            position: absolute;
+            left:0;
+            top:0;
+            display: block;
+            width: 350px;
+            height: 350px;
+            border: 1px black;
+            background: linear-gradient(transparent, rgb(145, 218, 145));
+            transition:all .6s;
+            opacity: 0;
+        }
+        .six:hover::after{
+            opacity: .8;
+        }
+        .six:hover{
+            transform:scale(1.1);
+        }
+        .two::after{
+            content:'';
+            position: absolute;
+            left:0;
+            top:0;
+            display: block;
+            width: 350px;
+            height: 350px;
+            border: 1px black;
+            background: linear-gradient(transparent, rgb(145, 218, 145));
+            transition:all .6s;
+            opacity: 0;
+        }
+        .two:hover::after{
+            opacity: .8;
+        }
+        .two:hover{
+            transform:scale(1.1);
+        }
+        .three::after{
+            content:'';
+            position: absolute;
+            left:0;
+            top:0;
+            display: block;
+            width: 350px;
+            height: 350px;
+            border: 1px black;
+            background: linear-gradient(transparent, rgb(145, 218, 145));
+            transition:all .6s;
+            opacity: 0;
+        }
+        .three:hover::after{
+            opacity: .8;
+        }
+        .three:hover{
+            transform:scale(1.1);
+        }
+        .four::after{
+            content:'';
+            position: absolute;
+            left:0;
+            top:0;
+            display: block;
+            width: 350px;
+            height: 350px;
+            border: 1px black;
+            background: linear-gradient(transparent, rgb(145, 218, 145));
+            transition:all .6s;
+            opacity: 0;
+        }
+        .four:hover::after{
+            opacity: .8;
+        }
+        .four:hover{
+            transform:scale(1.1);
+        }
+        h3{
+            padding-right: 20px;
+            width: 110px;
+            height: 30px;
+            background-color: greenyellow;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>基于PAAS的购物商城的介绍</h1>
+</header>
+<section>
+    <div class="intro">
+        <p>PAAS让服务器端程序的开发变得简单高效，PAAS提供了很多成熟的服务器端功能,
+            省去了大量代码开发工作量，让程序服务器端开发工作更加可控，让很多之前不敢想象的功能快速集成到你的程序中，低成本且高效.
+           且在以往，应用程序开发需要购买硬件，改善网络环境。安装Linux或Windows等操作系统，
+            并设置Oracle、MySQL等数据库。另外，搭建Java、Ruby、PHP等应用程序执行环境。
+            在这些之后，才可以开始开发。但是，PaaS的开发环境已经完成，我们可以立即开始开发应用程序。
+            可以开发自己的应用程序,而不是共享SaaS等现有服务,可以快速为公司建立战略体系.
+        </p>
+        <p>
+            本项目包含众多组件及模块，有例如注册登录，商城首页，搜索组件，列表组件，商品详情页组件，支付组件，订单组件等。其中最主要的有如下几个功能模块。
+        </p>
+
+    </div>
+    <ul>
+        <li>
+            <div class="one">
+                <h3>！搜索功能</h3>
+                <p>因为网上商城有多种不同分类的商品，搜索是一个必不可少的功能。搜索不仅可以带来用户所需的直观信息，还可以减少用户的搜索时间，
+                    大大节约用户成本,改善用户体验.</p>
+            </div>
+            <div class="two">
+               <h3>！网上支付</h3>
+                <p>是商城用户购买商品功能的实现。浏览商品添加到购物车并提交订单后，用户最终通过在线支付功能进行支付。</p>
+            </div>
+            <div class="five">
+                <h3>！加入购物</h3>
+                <p>用户将想要购买的商品添加到购物车中，在提交订单的时候一起付款。</p>
+            </div>
+        </li>
+        <li>
+            <div class="three">
+                <h3>！订单中心</h3>
+                <p>订单中心(通常称为个人中心)记录其购买的订单或浏览的产品记录，以便下次查看，还管理收货地址和电话等，同时还可以查看自己账号所下的订单，包括个人订单以及团购订
+                    单。由于订单中心的存在
+                    ，用户将不断地浏览网站。</p>
+            </div>
+            <div class="four">
+                <h3>活动显示</h3>
+                <p>企业开展的活动可以带来更多的利润。因此，网上商城建设的必要功能之一就是当商品价格变动时，用户可以在第一时间收到信息，并能有效沟通、互动和购买。在在适当的时间可以推出一些促销活动，如节假日和活动日，吸引用户购买，需要单独的活动页面进行展示和推广，介绍活动的详细形式和内容。页面的设计可以在短时间内吸引大量用户参与，提高产品的销量，从而提高企业的利益。</p>
+            </div>
+            <div class="six">
+                <h3>！商品详情</h3>
+                <p>商品名称、图片、价格、销量、参数信息、商户信息等综合信息页面。主要介绍商品，以图文形式突出商品优势</p>
+            </div>
+        </li>
+    </ul>
+</section>
+<script>
+</script>
+</body>
+</html>
