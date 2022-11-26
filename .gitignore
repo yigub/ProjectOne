@@ -1,0 +1,6 @@
+# 忽略1-nothing.js文件
+1-nothing.js
+
+#忽略test目录下的所有文件
+test/
+
